@@ -4,9 +4,226 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resturant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+    src="https://kit.fontawesome.com/4b9cd3dbd3.js"
+    crossorigin="anonymous"
+  ></script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+  </style>
+    
 </head>
 <body>
-    <h1>Document</h1>
+    <header id="header" class="d-flex flex-column">  
+    <nav id="first-navbar" class="navbar navbar-expand-md navbar-light black-background p-0 first-navbar">
+        <div class="container">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link text-white" href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="nav-link text-white" href="#">
+                <i class="fa-brands fa-twitter"></i>
+                </a>
+                
+                <a class="nav-link text-white" aria-current="page" href="#">English</a>
+                <a class="nav-link text-white" href="#">My Page</a>
+                <a class="nav-link text-white" href="#">Logout</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <nav id="second-navbar" class="navbar navbar-expand-md navbar-light  second-navbar shadow-sm bg-body rounded p-0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/logo-chef.png" alt="Hire chef Logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i id="icon-btn" class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link black-color" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link black-color" href="#">Dishes</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link black-color" href="#">Join</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link black-color" href="#">News</a>
+                        </li>
+                    
+                    </ul>
+            </div>
+            <div class="right-side">
+                <button class="campaign-btn"> Order Now</button>
+            </div>
+        </div>
+    </nav>
+      
+    <section class="header">
+        <div class="container h-100 ">
+            <div class="content h-100 d-flex  flex-column justify-content-center">
+                <div class="pragrahph-one">
+                    <p>"Hello! Sharing Dishes!"</p>
+                </div>
+                <div class="heading">
+                    <h1>EXPERIENCE THE BEST 4 CHEFS<br> NEW BRANCH IN CAIRO <br>2023</h1>
+                </div>
+                <div class="pragrahph-two">
+                    <p>Indulge in a special tasting menu, meet and greet with the chefs, witness a cooking competition, and enjoy a wine pairing dinner featuring dishes created by the best 4 chefs</p>
+                </div>
+                <div class="footer-header mt-5 black-color">
+                    <h2>2023.10.15(THU) ~ 16(FRI)</h2>
+                    <p>@ National Museum of Egypt, Doki cairo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
+    <section class="dishes py-5 mb-5 black-background white-color">
+        <div class="container">
+            <div class="title text-center d-flex justify-content-center">
+                <h2>Main Program</h2>
+            </div>
+            <div class="data row justify-content-center mt-5">
+                <div class="col-md d-flex flex-sm-column flex-md-column align-items-center opacity">
+                    <div class="icon mb-2 me-2">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="title mb-2 me-2 orange-color">
+                        Chef's Tasting Menu
+                    </div>
+                    <div class="description mb-2">
+                        Experience a special tasting menu featuring signature dishes from each of our 4 top chefs. Each dish will be introduced by the chef who created it, giving you a chance to learn more about their culinary inspirations and techniques.
+                    </div>
+                </div>
+                <div class="col-md d-flex flex-sm-column flex-md-column align-items-center opacity">
+                    <div class="icon mb-2 me-2">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <div class="title mb-2 me-2 orange-color">
+                        Meet the Chefs
+                    </div>
+                    <div class="description mb-2">
+                        Get to know our top 4 chefs personally and learn more about their culinary backgrounds and philosophies. This can be done as a Q&A session or as an informal mingling event.
+                    </div>
+                </div>
+                <div class="col-md d-flex flex-sm-column flex-md-column align-items-center opacity">
+                    <div class="icon mb-2 me-2">
+                        <i class="fa-solid fa-fire-burner"></i>
+                    </div>
+                    <div class="title mb-2 me-2 orange-color">
+                        Cooking Competition
+                    </div>
+                    <div class="description mb-2">
+                        Watch our 4 top chefs go head-to-head in a cooking competition to create the best dish using a specific ingredient or theme. You'll be able to taste the dishes and a winner will be chosen by either a panel of judges or by popular vote.
+                    </div>
+                </div>
+                <div class="col-md d-flex flex-sm-column flex-md-column align-items-center opacity">
+                    <div class="icon mb-2 me-2">
+                        <i class="fa-solid fa-wine-glass"></i>
+                    </div>
+                    <div class="title mb-2 me-2 orange-color">
+                        Chef's Table Experience
+                        
+                    </div>
+                    <div class="description mb-2">
+                        Indulge in a one-of-a-kind dining experience with our top 4 chefs at the Chef's Table. Enjoy an exclusive multi-course menu crafted by the chefs themselves, and get a chance to interact with them as they prepare and serve your meal.
+                    </div>
+                </div>
+                <div class="col-md d-flex flex-sm-column flex-md-column align-items-center opacity">
+                    <div class="icon mb-2 me-2">
+                        <i class="fa-solid fa-tractor"></i>
+                    </div>
+                    <div class="title mb-2 me-2 orange-color">
+                        Farm-to-Table Tour and Lunch
+                    </div>
+                    <div class="description mb-2">
+                        Embark on a guided tour of a local farm where our chefs source their fresh ingredients, and learn about the farm-to-table movement. After the tour, enjoy a farm-fresh lunch prepared by our top chefs with the ingredients you just saw being harvested.
+                    </div>
+                </div>
+            </div>
+            <div class="show-all-btn mt-4 d-flex justify-content-center">
+                <a href="#" class="white-color">see the whole dishes</a>
+            </div>
+        </div>
+    </section>
+    <section class="features py-5 mb-5">
+        <div class="container">
+            <div class="title text-center d-flex justify-content-center">
+                <h2>Features Cooks</h2>
+            </div>
+            <div id="features-cook" class="row">
+               
+            </div>
+            <div class="mt-4 d-flex justify-content-center">
+                <a class="read-btn" >
+                    <span class="more">
+                            More
+                        <span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </span>
+                    </span>
+                    <span class="less d-none">
+                        Less
+                        <span>
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="partners py-5 black-background">
+        <div class="container">
+            <div class="title text-center d-flex justify-content-center">
+                <h2 class="gray-color">partners</h2>
+            </div>
+            <div class=" icon d-flex  flex-wrap justify-content-center align-items-baseline mt-5 gray-color">
+                
+                    <div>
+                        
+                        <img src="images/Williams-Sonoma-EDI.png"  alt="Williams Sonoma">
+                    </div>
+                    <div>
+                        <img src="images/LH-Logos_LH-All+-+Color+copy.png" alt="local haravest" >
+                    </div>
+                    
+                    <div>
+                        <img src="images/Tripadvisor-Emblem.png" alt="Trip advisor" >
+                    </div>
+                   <div>
+                    <img class="none-filter" src="images/foodandwinelogowhite-ac7f9b70c63a3dcb0160ed30ab19adcde87c48e709183673f2518af87f3a171f.png" alt="Food & Wine">
+                   </div>
+            
+                   
+            </div>
+        </div>
+    </section>
+    <footer class="p-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-6 col-md-3 image">
+                    <img src="images/logo-chef.png" alt="Hire Chef" />
+                </div>
+                <div class="col-6 col-md-9  copywrite">
+                    <p>Hire Chef. Some Rights Reserved.</p>
+                    <p class="p-0 m-0 description">The design used in this project is based on the original work by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and has been modified to fit the requirements of the project.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    
 </body>
 </html>

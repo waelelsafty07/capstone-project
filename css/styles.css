@@ -218,10 +218,12 @@ features
   width: 100%;
   font-weight: bold;
 }
+
 .features .read-btn:hover {
   background-color: #ec5242;
   color: #fff;
 }
+
 /* ----------------------------------------------------------------
   partners
 */
@@ -474,6 +476,7 @@ footer .copywrite p:last-child {
     text-decoration: none;
     width: 100%;
   }
+
   footer .image img {
     max-width: 6rem;
     margin: 0;

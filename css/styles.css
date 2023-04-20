@@ -175,8 +175,8 @@ features
 }
 
 .features .transparent {
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
 
   /* clip: rect(0px, 100px, 200px, 0px); */
 }
@@ -190,8 +190,8 @@ features
 }
 
 .features .person-img {
-  width: 150px;
-  height: 100%;
+  width: 9rem;
+  height: 9rem;
 }
 
 .features .body .info-person .name {

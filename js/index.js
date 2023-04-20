@@ -141,6 +141,7 @@ const visability = () => {
     read.classList.add('d-none');
   }
 };
-
-visability();
-window.addEventListener('resize', visability);
+if (read) {
+  visability();
+  window.addEventListener('resize', visability);
+}

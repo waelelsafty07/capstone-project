@@ -1,3 +1,11 @@
+const btnMenu = document.querySelector('.navbar-toggler');
+const iconBtn = document.querySelector('#icon-btn');
+
+if (btnMenu) {
+  btnMenu.addEventListener('click', () => {
+    iconBtn.classList.toggle('fa-xmark');
+  });
+}
 const featureCooks = document.querySelector('#features-cook');
 const featuresData = [
   {

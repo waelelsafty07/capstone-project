@@ -11,7 +11,7 @@ const featuresData = [
   {
     name: 'Massimo Bottura',
     job: 'Chef Patron, Osteria Francescana (Modena, Italy)',
-    description: `Massimo Bottura is an Italian chef who owns and runs the three-Michelin-starred Osteria Francescana, located in Modena, Italy. Bottura's dishes are inspired by traditional Italian cuisine, but he adds his own creative twists and modern techniques to make them truly unique. He is known for his commitment to sustainability and his efforts to reduce food waste, as well as his philanthropic work through his non-profit organization, Food for Soul.
+    description: `Massimo Bottura is an Italian chef who owns and runs the three-Michelin-starred Osteria Francescana, located in Modena, Italy.
     `,
     image: 'images/Massimo Bottura.webp',
   },
@@ -19,20 +19,20 @@ const featuresData = [
     name: 'Dominique Crenn',
     job: 'Chef/Owner, Atelier Crenn (San Francisco, USA)',
     description: `
-    Dominique Crenn is a French-American chef and restaurateur, and the first female chef in the US to earn three Michelin stars. She is the owner of Atelier Crenn, a highly acclaimed restaurant in San Francisco, where she creates innovative, multi-course tasting menus that reflect her personal experiences and emotions. Crenn is known for her commitment to sustainability and her efforts to promote diversity and inclusion in the culinary industry.`,
+    Dominique Crenn is a French-American chef and restaurateur, and the first female chef in the US to earn three Michelin stars.`,
     image: 'images/Dominique Crenn.jpg',
   },
   {
     name: 'Yotam Ottolenghi',
     job: 'Chef/Owner, Ottolenghi (London, UK)',
-    description: `Yotam Ottolenghi is an Israeli-British chef, cookbook author, and restaurateur, and the owner of several highly successful restaurants in London. He is known for his innovative, vegetarian-focused cuisine, which blends Middle Eastern and Mediterranean flavors with modern cooking techniques. Ottolenghi's recipes are featured in his best-selling cookbooks, and he has also written for The New York Times and The Guardian.
+    description: `Yotam Ottolenghi is  cookbook author, and restaurateur, and the owner of several highly successful restaurants in London.
     `,
     image: 'images/Yotam Ottolenghi.jpg',
   },
   {
     name: 'Alex Atala',
     job: 'Chef/Owner, D.O.M. (Sao Paulo, Brazil)',
-    description: `Alex Atala is a Brazilian chef and restaurateur, and the owner of D.O.M., a highly acclaimed restaurant in Sao Paulo that specializes in contemporary Brazilian cuisine. Atala is known for his dedication to using indigenous Brazilian ingredients and his efforts to promote sustainable farming practices in the Amazon rainforest. He is also involved in several philanthropic initiatives, including Gastromotiva, a non-profit organization that uses food to promote social change.
+    description: `Alex Atala is a highly acclaimed restaurant in Sao Paulo that specializes in contemporary Brazilian cuisine. 
     `,
     image: 'images/Alex Atala.jpeg',
   },
